@@ -18,12 +18,7 @@ async function query(queryObject) {
   } finally {
     await client.end();
   }
-
-
-
-
 }
-
 
 export default {
   query: query,
